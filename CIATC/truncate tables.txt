@@ -1,0 +1,8 @@
+TRUNCATE TABLE [@SL_NFE_DATA]
+TRUNCATE TABLE [@SL_NFE_ITENS]
+
+TRUNCATE TABLE bf_nao_conformidades
+TRUNCATE TABLE bf_log
+TRUNCATE TABLE sap_docs
+TRUNCATE TABLE sap_docs_itens
+TRUNCATE TABLE sap_docs_itens_despesas

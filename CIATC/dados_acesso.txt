@@ -1,0 +1,10 @@
+-- acesso TS
+IP: 54.233.166.228
+Usuário: Administrator
+Senha: 4kc2M9mBMX
+
+
+-- acesso SAP
+BASE SBO_HOMOLOG
+USER SUPRIMENTOSHA
+PASS supri@1584
