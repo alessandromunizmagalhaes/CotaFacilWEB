@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace CotaFacilWEB
 {
@@ -20,12 +19,11 @@ namespace CotaFacilWEB
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/bower_components/bootstrap/dist/js/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/bower_components/bootstrap/dist/css/bootstrap.css"
+                      /*"~/Content/site.css" */));
         }
     }
 }

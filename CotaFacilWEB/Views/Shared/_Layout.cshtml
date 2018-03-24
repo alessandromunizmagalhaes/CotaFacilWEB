@@ -1,37 +1,32 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cota Fácil</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+<body style="background-color:#fafafa">
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-            </div>
+            <h1 class="display-1">Cota Fácil</h1>
+            <p class="lead">Cotações de um jeito fácil que você nunca viu</p>
         </div>
     </div>
-    <div class="container body-content">
+    <!--<div class="container-fluid">
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="~/Images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Cota Fácil - Centerlab
+            </a>
+        </nav>
+    </div> -->
+    <div class="container">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Cota Fácil</p>
         </footer>
     </div>
 
